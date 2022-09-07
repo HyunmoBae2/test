@@ -1,0 +1,46 @@
+[2022-09-07T01:29:53.708Z] Validating found git in: git
+[2022-09-07T01:29:53.755Z] Using git 2.25.1 from git
+[2022-09-07T01:29:53.804Z] > git rev-parse --show-toplevel [38ms]
+[2022-09-07T01:29:53.805Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T01:29:53.816Z] > git rev-parse --show-toplevel [4ms]
+[2022-09-07T01:29:53.816Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T01:29:53.822Z] > git rev-parse --show-toplevel [1ms]
+[2022-09-07T01:29:53.822Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T01:46:00.043Z] > git rev-parse --show-toplevel [2ms]
+[2022-09-07T01:46:00.043Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T01:46:02.426Z] > git rev-parse --show-toplevel [2ms]
+[2022-09-07T01:46:02.426Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T02:21:58.380Z] > git rev-parse --show-toplevel [1ms]
+[2022-09-07T02:21:58.380Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T02:22:06.657Z] > git rev-parse --show-toplevel [1ms]
+[2022-09-07T02:22:06.657Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T02:24:59.628Z] > git rev-parse --show-toplevel [1ms]
+[2022-09-07T02:24:59.628Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T02:25:01.397Z] > git rev-parse --show-toplevel [2ms]
+[2022-09-07T02:25:01.397Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T02:25:30.103Z] > git rev-parse --show-toplevel [2ms]
+[2022-09-07T02:25:30.103Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T02:25:49.490Z] > git rev-parse --show-toplevel [2ms]
+[2022-09-07T02:25:49.490Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-07T02:27:03.052Z] > git rev-parse --show-toplevel [1ms]
+[2022-09-07T02:27:03.056Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-09-07T02:27:03.063Z] Open repository: /home/ubuntu
+[2022-09-07T02:27:03.105Z] > git status -z -uall [35ms]
+[2022-09-07T02:27:03.112Z] > git symbolic-ref --short HEAD [3ms]
+[2022-09-07T02:27:03.117Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-09-07T02:27:03.125Z] > git remote --verbose [2ms]
+[2022-09-07T02:27:03.125Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-09-07T02:27:03.659Z] > git config --get commit.template [25ms]
+[2022-09-07T02:27:03.662Z] > git check-ignore -v -z --stdin [9ms]
+[2022-09-07T02:27:06.164Z] > git status -z -uall [16ms]
+[2022-09-07T02:27:06.169Z] > git symbolic-ref --short HEAD [1ms]
+[2022-09-07T02:27:06.174Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-09-07T02:27:06.181Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-09-07T02:27:06.181Z] > git remote --verbose [1ms]
+[2022-09-07T02:27:06.222Z] > git config --get commit.template [11ms]
+[2022-09-07T02:27:11.239Z] > git status -z -uall [12ms]
+[2022-09-07T02:27:11.243Z] > git symbolic-ref --short HEAD [1ms]
+[2022-09-07T02:27:11.249Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-09-07T02:27:11.256Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-09-07T02:27:11.257Z] > git remote --verbose [1ms]
+[2022-09-07T02:27:11.280Z] > git config --get commit.template [0ms]
